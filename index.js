@@ -2,4 +2,7 @@
 let main = document.querySelector('main')
 main.parentNode.removeChild(main);
 
-let newHeader = document.querySelector('h1#victory')
+const newHeader = document.createElement('h1')
+let newHeader.id = "victory"
+
+newHeader.innerHTML = "YOUR-NAME is the champion"
