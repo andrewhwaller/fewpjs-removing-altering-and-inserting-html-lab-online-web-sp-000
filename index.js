@@ -2,4 +2,4 @@
 let main = document.querySelector('main')
 main.parentNode.removeChild(main);
 
-let newHeader = document.getElementById('victory')
+let newHeader = document.getElementById('h1#victory')
